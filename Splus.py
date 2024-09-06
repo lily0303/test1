@@ -59,3 +59,4 @@ ttm = Trainmodel(pp, parg.epoches, parg.batch_size, parg.learning_rate, model, O
                  wg_scale=mwr.wg_scale, Gplus=memr.Gplus,LTP_Gplus=memr.LTP_Gplus,LTD_Gplus=memr.LTD_Gplus,pnum=parg.pnum,
                  v=parg.v,threadscale=parg.threadscale,onoff_ratio=parg.onoff_ratio,noise_rate=parg.noise_rate,noise=noise)
 ttm.train()
+print("a")
