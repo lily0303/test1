@@ -61,3 +61,4 @@ ttm = Trainmodel(pp, parg.epoches, parg.batch_size, parg.learning_rate, model, O
 ttm.train()
 print("a")
 print("b")
+print("d")
